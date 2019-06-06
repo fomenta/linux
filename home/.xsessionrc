@@ -1,0 +1,4 @@
+#!/bin/sh
+
+~/startup/disable_touchpad.sh
+~/startup/disable_trackstick.sh
