@@ -7,7 +7,7 @@ set -e -u
 # general: xclip
 # git uses: git
 # code uses: curl apt-transport-https
-sudo apt install git xclip curl apt-transport-https -y
+sudo apt install git xclip curl apt-transport-https grub-customizer -y
 
 # ssh key for github
 cd
