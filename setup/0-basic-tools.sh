@@ -7,7 +7,15 @@ set -e -u
 # general: xclip
 # git uses: git
 # code uses: curl apt-transport-https
-sudo apt install git xclip curl apt-transport-https grub-customizer -y
+sudo apt install git xclip curl apt-transport-https -y
+
+# grub customizer (ubuntu 18.x)
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt update
+sudo apt install grub-customizer -y
+# to remove
+# sudo apt-get remove --autoremove grub-customizer
+
 
 # ssh key for github
 cd
