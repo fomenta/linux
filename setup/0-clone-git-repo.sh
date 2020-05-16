@@ -7,6 +7,9 @@ cd ~/source/fomenta
 
 #
 git clone git@github.com:fomenta/linux.git
+git clone git@github.com:fomenta/codesamples.git
+
+
 cd linux
 code .
 

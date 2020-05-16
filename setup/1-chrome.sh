@@ -13,4 +13,4 @@ sudo apt-get update
 sudo apt install google-chrome-stable -y
 
 # open it
-google-chrome-stable
+#google-chrome-stable
