@@ -165,3 +165,7 @@ alias cd-source='cd ~/source'
 alias cd-gh='cd ~/source/fomenta'
 alias cd-gh-linux='cd ~/source/fomenta/linux'
 alias cd-gh-samples='cd ~/source/fomenta/codesamples'
+
+
+# tools
+alias mw='$HOME/source/fomenta/linux/drivers/mousewheel.sh'
