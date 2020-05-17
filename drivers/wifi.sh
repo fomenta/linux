@@ -1,5 +1,6 @@
 # https://h30434.www3.hp.com/t5/Notebook-Wireless-and-Networking/Realtek-8723DE-wifi-module-amp-Bluetooth-Linux-driver/td-p/6477307
 # https://github.com/lwfinger/rtlwifi_new/tree/extended
+# http://ubuntuhandbook.org/index.php/2019/04/nstall-rtl8723de-wifi-driver-ubuntu-19-04/
 
 
 sudo apt-get install linux-headers-generic build-essential git
