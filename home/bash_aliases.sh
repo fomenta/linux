@@ -158,7 +158,9 @@ alias jmx-view='jmxView'
 alias loadp='source ~/.bash_aliases'
 alias profile='code ~/.bash_aliases'
 
-alias clip='xclip -rmlastnl -selection clipboard'
+alias clip='xclip -selection clipboard'
+# ubuntu 20
+#alias clip='xclip -rmlastnl -selection clipboard'
 
 # CD
 alias cd-source='cd ~/source'
