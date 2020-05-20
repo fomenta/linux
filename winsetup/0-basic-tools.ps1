@@ -30,6 +30,9 @@ cinst -y vscode
 # https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2019
 cinst -y visualstudio2019community --package-parameters "--locale en-US --includeRecommended --includeOptional --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Data --add Microsoft.VisualStudio.Workload.ManagedDesktop --passive"
 
+"SQL Server Management Studio"
+cinst -y ssms
+
 "Fiddler (Web Debugger)"
 cinst -y fiddler
 
