@@ -26,7 +26,9 @@ cinst -y openjdk11
 cinst -y vscode
 
 "Visual Studio 2019 Community"
-cinst -y visualstudio2019community
+# cmd arguments: https://chocolatey.org/packages/visualstudio2019community
+# https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2019
+cinst -y visualstudio2019community --package-parameters "--locale en-US --includeRecommended --includeOptional --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.NetWeb --add Microsoft.VisualStudio.Workload.Data --add Microsoft.VisualStudio.Workload.ManagedDesktop --passive"
 
 "Remote Desktop"
 cinst -y anydesk
@@ -40,6 +42,8 @@ cinst -y tablacus
 "Any Video Converter (Free)"
 cinst -y anyvideoconverter
 
+"Screen Recorder (Free)"
+cinst -y obs-studio
 
 <##############################################
 To Review:
