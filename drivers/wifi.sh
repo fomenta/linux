@@ -2,16 +2,14 @@
 # https://github.com/lwfinger/rtlwifi_new/tree/extended
 # http://ubuntuhandbook.org/index.php/2019/04/nstall-rtl8723de-wifi-driver-ubuntu-19-04/
 
-
 sudo apt-get install linux-headers-generic build-essential git
-
 
 sudo /bin/sh -c 'echo "options rtl8723de ant_sel=2" >> /etc/modprobe.d/rtl8723de.conf'
 
 git clone https://github.com/lwfinger/rtlwifi_new.git -b extended
 cd rtlwifi_new
 make
+
 sudo make install
 sudo modprobe -r rtl8723de
 sudo modprobe rtl8723de
-
