@@ -51,6 +51,10 @@ cinst -y anyvideoconverter
 "Screen Recorder (Free)"
 cinst -y obs-studio
 
+"Tabbed File Exporer"
+cinst -y freecommander-xe
+
+
 <##############################################
 To Review:
 ###############################################
