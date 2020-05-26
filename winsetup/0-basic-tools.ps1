@@ -39,10 +39,6 @@ cinst -y fiddler
 "Remote Desktop"
 cinst -y anydesk
 
-"Tablacus (lternative File Explorer)"
-cinst -y tablacus
-
-
 "WARNING: Requires a few clicks"
 
 "Any Video Converter (Free)"
@@ -51,8 +47,8 @@ cinst -y anyvideoconverter
 "Screen Recorder (Free)"
 cinst -y obs-studio
 
-"Tabbed File Exporer"
-cinst -y freecommander-xe
+"Tabbed File Explorer: Double Commander for Windows"
+cinst -y doublecmd
 
 
 <##############################################
