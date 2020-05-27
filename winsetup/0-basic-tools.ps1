@@ -54,6 +54,9 @@ cinst -y doublecmd
 <##############################################
 To Review:
 ###############################################
+Loom | Free Screen & Video Recording Software
+https://www.loom.com/welcome?recorded=false
+
 Install or Update Multiple apps at once
 https://ninite.com/
 
