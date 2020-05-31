@@ -50,6 +50,9 @@ cinst -y obs-studio
 "Tabbed File Explorer: Double Commander for Windows"
 cinst -y doublecmd
 
+"Video Editors (Free): Openshot"
+cinst -y openshot
+
 
 <##############################################
 To Review:
@@ -66,9 +69,8 @@ https://www.tixati.com/discover/
 Video Converter
 HandBreak
 
-Video Editors (Free)
-https://shotcut.org/
-https://www.openshot.org/
+"Video Editors (Free): ShotCut"
+cinst -y shotcut
 
 # HWINFO
 
