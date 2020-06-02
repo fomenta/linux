@@ -39,10 +39,6 @@ cinst -y fiddler
 "Remote Desktop"
 cinst -y anydesk
 
-"Tablacus (lternative File Explorer)"
-cinst -y tablacus
-
-
 "WARNING: Requires a few clicks"
 
 "Any Video Converter (Free)"
@@ -51,9 +47,19 @@ cinst -y anyvideoconverter
 "Screen Recorder (Free)"
 cinst -y obs-studio
 
+"Tabbed File Explorer: Double Commander for Windows"
+cinst -y doublecmd
+
+"Video Editors (Free): Openshot"
+cinst -y openshot
+
+
 <##############################################
 To Review:
 ###############################################
+Loom | Free Screen & Video Recording Software
+https://www.loom.com/welcome?recorded=false
+
 Install or Update Multiple apps at once
 https://ninite.com/
 
@@ -63,9 +69,8 @@ https://www.tixati.com/discover/
 Video Converter
 HandBreak
 
-Video Editors (Free)
-https://shotcut.org/
-https://www.openshot.org/
+"Video Editors (Free): ShotCut"
+cinst -y shotcut
 
 # HWINFO
 
