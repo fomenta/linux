@@ -10,7 +10,9 @@ set -e -u
 # https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 
 # Uninstall old versions
+set +e
 sudo apt-get remove docker docker-engine docker.io containerd runc
+set -e
 
 # Update the apt package index and install packages to allow apt to use a repository over HTTPS:
 
@@ -35,6 +37,9 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 #   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
 #   $(lsb_release -cs) \
 #   stable"
+#clean up
+#sudo add-apt-repository --remove 'http://ppa.launchpad.net/danielrichter2007/grub-customizer/ubuntu'
+
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    xenial \
