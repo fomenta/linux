@@ -90,3 +90,15 @@ EOF
 
 # no need to restart service
 sudo service docker restart
+
+
+#
+# https://docs.docker.com/network/network-tutorial-standalone/
+#
+echo "Create docker network: workgroup"
+docker network create --driver bridge workgroup
+cat >/dev/null <<EOF
+docker network ls
+docker network inspect workgroup
+EOF
+

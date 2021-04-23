@@ -11,11 +11,13 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # install java, gradle, mvn
 
-echo "Installing latest java LTS"
-sdk install java 11.0.7-open
-
-echo "Installing Gradle"
-sdk install gradle
+echo "Installing java 8 LTS"
+# sdk list java
+sdk install java 8.0.292-open
+#sdk install java 11.0.7-open
 
 echo "Installing Maven"
 sdk install maven
+
+#echo "Installing Gradle"
+#sdk install gradle

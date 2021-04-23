@@ -23,7 +23,7 @@ DOWNLOAD_PATH=$HOME/Downloads/$FILE
 echo ""
 echo -e "\e[94mDownloading Toolbox files \e[39m"
 echo ""
-wget -cO  ${DOWNLOAD_PATH} ${URL} --read-timeout=5 --tries=0
+wget -cO ${DOWNLOAD_PATH} ${URL} --read-timeout=5 --tries=0
 echo ""
 echo -e "\e[32mDownload complete!\e[39m"
 echo ""
