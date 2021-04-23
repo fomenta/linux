@@ -4,7 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 "Installing Basic Tools..."
-cinst -y echoargs curl 7zip winmerge autoruns procexp gimp vlc filezilla git
+cinst -y echoargs curl 7zip winmerge autoruns procexp gimp vlc git
 
 "Web Browsers"
 cinst -y googlechrome firefox
@@ -13,17 +13,19 @@ cinst -y googlechrome firefox
 cinst -y notepadplusplus
 
 "Notepad Replacer (defaults to Notepad++)"
-$argList="/notepad=`"`"$env:ProgramFiles\Notepad++\Notepad++.exe`"`" /verysilent"
-cinst notepadreplacer --force -y -ia $argList
+cinst notepadreplacer --force -y --params '/NOTEPAD="C:\Program Files\Notepad++\Notepad++.exe'
 
-"LibreOffice"
-cinst -y libreoffice-fresh
+"Office-Like"
+cinst -y libreoffice
 
+
+"Dev Tools"
+cinst -y vscode
+cinst -y powershell-core
+
+<#
 "Java LTS"
 cinst -y openjdk11
-
-"Visual Studio Code"
-cinst -y vscode
 
 "Visual Studio 2019 Community"
 # cmd arguments: https://chocolatey.org/packages/visualstudio2019community
